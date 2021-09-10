@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky & Fixed Navbar</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            height: 70px;
+            z-index: 1;
+        }
+
+        body{
+            color: #fff;
+            font-family: tahoma;
+            font-size: 16px;
+            word-spacing: 0.1pxx;
+            text-align: center;
+        }
+
+        nav {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            background: #fff;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 24px 10px;
+        }
+
+        nav li a{
+            color: #757575;
+            text-transform: uppercase;
+        }
+
+        section{
+            height: 100vh;
+        }
+
+        #screen1{
+            background-image: url('pexels.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #screen2 {
+            background: #efc94d;
+        }
+
+        #screen2 p{
+            width: 90%;
+            text-align: justify;
+            margin: 0 auto;
+        }
+
+        #screen3 {
+            background: #34495e;
+        }
+
+        #screen3 p{
+            width: 90%;
+            text-align: justify;
+            margin: 0 auto;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <section id="screen1">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Locations</a></li>
+                <li><a href="">Corporate</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="screen2">
+        <br><br><br><br><br><br>
+        <h1>About Us</h1>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero blanditiis quos laudantium iure quibusdam rerum minus velit autem optio id eius suscipit, rem cupiditate nesciunt assumenda ducimus doloremque quaerat.
+            Non libero modi cupiditate sed voluptas velit vitae voluptatem eaque a delectus et eum recusandae, saepe distinctio, dolorum vero itaque perspiciatis accusamus adipisci repudiandae. Rem rerum enim odit error quae!
+            Nobis enim est earum voluptatum nihil voluptas ratione! Eum, adipisci! Accusantium corrupti aspernatur blanditiis, harum consequuntur iste! Soluta minima quo rem, deserunt ipsa excepturi quidem sint, accusantium minus fugiat facilis?
+            Perspiciatis sit ducimus rem, veritatis, expedita perferendis saepe adipisci quos blanditiis nobis excepturi ex labore temporibus alias laboriosam est quam? Sit aliquam quidem necessitatibus repellendus consectetur, commodi enim nemo voluptatibus.
+            Est suscipit magnam dicta. Sequi, qui vero unde, ad nesciunt harum et consectetur, saepe sed eum nostrum commodi reiciendis neque. Saepe, aspernatur maxime vitae facere nostrum itaque? Blanditiis, ut assumenda.
+            Molestiae ut illum praesentium nisi eos veniam hic deleniti odit eius inventore perspiciatis id sequi nobis itaque iste quod quasi voluptatem asperiores voluptatum suscipit, voluptate sed maxime consequuntur beatae. Non?
+            Dolores nesciunt eum voluptatibus magni hic quis tenetur quasi atque voluptates quod? Corporis illo dolorum reiciendis, eaque quidem nam doloremque perferendis earum dolor laborum inventore velit quae culpa. Facilis, atque?
+            Ex consectetur corporis tempore totam quam ipsam, atque asperiores accusantium. Hic, odio. Ea iusto distinctio reiciendis ad quo in dicta dignissimos. Tempore perferendis mollitia itaque, eius maxime sint perspiciatis laboriosam?
+            Perferendis corrupti id praesentium alias laudantium tempore quo in expedita sed quidem incidunt corporis neque fuga eveniet molestias, ad labore porro est consequuntur placeat? Odit numquam perspiciatis iusto maxime amet!
+            Incidunt optio, tempore, ducimus quos eaque asperiores ex beatae enim dolorem deleniti voluptate amet vero explicabo qui aliquid fugit laboriosam veniam culpa possimus. Animi, doloribus molestias ducimus autem at deleniti.
+            Voluptas dolorum adipisci totam omnis illum quaerat ea quod pariatur sint. Dicta aperiam exercitationem, ratione necessitatibus repellat rerum nisi voluptatem velit quos incidunt, molestias itaque reiciendis sed! Reprehenderit, nam odio.
+            Nemo, magni? Rerum beatae facere quo! Blanditiis ut quo ipsa non possimus, deleniti nesciunt error exercitationem veritatis accusamus quam labore iste quisquam, ea, animi magnam maiores. Eius corrupti nemo incidunt.
+           
+        </p>
+    </section>
+
+    <section id="screen3">
+        <br><br><br><br><br><br>
+        <h1>Services</h1>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero blanditiis quos laudantium iure quibusdam rerum minus velit autem optio id eius suscipit, rem cupiditate nesciunt assumenda ducimus doloremque quaerat.
+            Non libero modi cupiditate sed voluptas velit vitae voluptatem eaque a delectus et eum recusandae, saepe distinctio, dolorum vero itaque perspiciatis accusamus adipisci repudiandae. Rem rerum enim odit error quae!
+            Nobis enim est earum voluptatum nihil voluptas ratione! Eum, adipisci! Accusantium corrupti aspernatur blanditiis, harum consequuntur iste! Soluta minima quo rem, deserunt ipsa excepturi quidem sint, accusantium minus fugiat facilis?
+            Perspiciatis sit ducimus rem, veritatis, expedita perferendis saepe adipisci quos blanditiis nobis excepturi ex labore temporibus alias laboriosam est quam? Sit aliquam quidem necessitatibus repellendus consectetur, commodi enim nemo voluptatibus.
+            Est suscipit magnam dicta. Sequi, qui vero unde, ad nesciunt harum et consectetur, saepe sed eum nostrum commodi reiciendis neque. Saepe, aspernatur maxime vitae facere nostrum itaque? Blanditiis, ut assumenda.
+            Molestiae ut illum praesentium nisi eos veniam hic deleniti odit eius inventore perspiciatis id sequi nobis itaque iste quod quasi voluptatem asperiores voluptatum suscipit, voluptate sed maxime consequuntur beatae. Non?
+            Dolores nesciunt eum voluptatibus magni hic quis tenetur quasi atque voluptates quod? Corporis illo dolorum reiciendis, eaque quidem nam doloremque perferendis earum dolor laborum inventore velit quae culpa. Facilis, atque?
+            Ex consectetur corporis tempore totam quam ipsam, atque asperiores accusantium. Hic, odio. Ea iusto distinctio reiciendis ad quo in dicta dignissimos. Tempore perferendis mollitia itaque, eius maxime sint perspiciatis laboriosam?
+            Perferendis corrupti id praesentium alias laudantium tempore quo in expedita sed quidem incidunt corporis neque fuga eveniet molestias, ad labore porro est consequuntur placeat? Odit numquam perspiciatis iusto maxime amet!
+            Incidunt optio, tempore, ducimus quos eaque asperiores ex beatae enim dolorem deleniti voluptate amet vero explicabo qui aliquid fugit laboriosam veniam culpa possimus. Animi, doloribus molestias ducimus autem at deleniti.
+            Voluptas dolorum adipisci totam omnis illum quaerat ea quod pariatur sint. Dicta aperiam exercitationem, ratione necessitatibus repellat rerum nisi voluptatem velit quos incidunt, molestias itaque reiciendis sed! Reprehenderit, nam odio.
+            Nemo, magni? Rerum beatae facere quo! Blanditiis ut quo ipsa non possimus, deleniti nesciunt error exercitationem veritatis accusamus quam labore iste quisquam, ea, animi magnam maiores. Eius corrupti nemo incidunt.
+            
+        </p>
+    </section>
+    
+    <script>
+        $(document).ready(function(){
+            $(window).bind('scroll', function(){
+                var navHeight = $(window).height() - 70;
+                if($(window).scrollTop() > navHeight){
+                    $('nav').addClass('fixed');
+                }
+                else {
+                    $('nav').removeClass('fixed');
+                }
+            });
+        })
+    </script>
+</body>
+</html>
